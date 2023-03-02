@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest country information</title>
+
+    <!-- tailwing daisy ui link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <!-- tailwind css link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h2 class="text-5xl fw-bold mt-4 text-center text-lime-600	">Welcome to our countries</h2>
+    </header>
+
+    <section id="countrie_container" class="px-20 grid grid-cols-1 md:grid-cols-2 md:grid-cols-3 mt-10 gap-6">
+    </section>
+<!-- modal container -->
+    <section id="modal-info">
+        <!-- The button to open modal -->
+
+
+    <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+    </section>
+
+    <div class="text-center mt-5">
+        <button onclick="showAllItems()" class="btn btn-primary">Show All</button>
+    </div>
+
+
+    <!-- script file link -->
+    <script src="js/country.js"></script>
+</body>
+</html>
